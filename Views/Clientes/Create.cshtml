@@ -1,0 +1,21 @@
+﻿@model MyWebApp.Models.Cliente
+
+<h2>Novo Cliente</h2>
+
+<form asp-action="Create" method="post">
+    <div>
+        <label>Nome</label>
+        <input asp-for="Nome" />
+    </div>
+
+    <div>
+        <label>Email</label>
+        <input asp-for="Email" />
+    </div>
+
+    <br />
+
+    <button type="submit">Salvar</button>
+</form>
+
+<a href="/Clientes">Voltar</a>

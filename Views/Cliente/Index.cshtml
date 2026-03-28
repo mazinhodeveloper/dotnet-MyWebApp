@@ -1,0 +1,14 @@
+﻿@model MyWebApp.Models.Cliente
+
+<h2>Cliente</h2>
+
+@if (Model != null)
+{
+    <p><strong>Id:</strong> @Model.Id</p>
+    <p><strong>Nome:</strong> @Model.Nome</p>
+    <p><strong>Email:</strong> @Model.Email</p>
+}
+else
+{
+    <p>Nenhum cliente encontrado.</p>
+}

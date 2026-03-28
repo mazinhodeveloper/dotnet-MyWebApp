@@ -1,0 +1,27 @@
+﻿@model List<MyWebApp.Models.Cliente>
+
+<h2>Lista de Clientes</h2>
+<br />
+<a href="/Clientes/Create">Novo Cliente</a>
+<br />
+<br />
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nome</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model)
+{
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Nome</td>
+            <td>@item.Email</td>
+        </tr>
+}
+    </tbody>
+</table>
