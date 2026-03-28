@@ -35,7 +35,8 @@ https://localhost:xxxx
 https://localhost:7271     
      
 ## Second step:    
-.Net C# Web Application. Creating .NET C# Web Applications on Ubuntu 24.04. 
+.Net C# Web Application. Creating .NET C# Web Applications on Windows 11.      
+https://github.com/mazinhodeveloper/dotnet-MyWebApp        
       
 ### .Net C# Web Application
 1 Create new project     
